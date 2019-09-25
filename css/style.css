@@ -1,0 +1,140 @@
+/* feuille de style CSS pour le projet de 
+reproduction de la page google par Anthony
+moussaillon de la session 10 à Montpellier*/
+body, html
+{
+    height:100%;
+}
+body{
+text-align:center;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+header li
+{
+    margin-right: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+img.logo 
+{
+    width: 272px;
+    height: 92px;
+}
+#page_center
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%; /* pour mettre le groupe au centre de la page web */
+    left: 40%; /* pour mettre le groupe au centre de la page web */
+    transform: translate(-30%; -40%) /* pour mettre le groupe au centre de la page web */
+}
+#logo_google
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recherche_barre
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#push_button
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+#pays
+{
+    background-color: #f2f2f2;
+    text-align: left;
+    padding-left: 0px;
+    position: absolute; 
+    bottom:40px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding-top:0px;
+    height:50px;
+    border-top: 1px solid #e4e4e4;
+}
+#footer2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 27px;
+    background-color: #f2f2f2;
+}
+#footer3
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 27px;
+    background-color: #f2f2f2;
+}
+.footerleft
+{
+    padding: 5px 5px 5px 5px;
+}
+.button {
+    border: 1px solid white;
+                      border-radius: 10px;
+                      background-color: #E6E6E6;
+                      opacity: 0.4;
+                      padding: 14px;
+}
+h4
+{
+    font-size: 11px;
+    font-family: arial,sans-serif;
+    font-weight:normal;
+    text-indent: 29px;
+}
+h3
+{
+    font-size: 11px;
+    font-family: arial,sans-serif;
+    font-weight:normal;
+    color: #848484;
+}
+a:hover 
+{
+    text-decoration: underline;
+    color: #848484;
+}
+a:link 
+{
+    text-decoration: none;
+    color: #848484;
+}
+a:visited 
+{
+    text-decoration: none;
+    color: #848484;
+  }
